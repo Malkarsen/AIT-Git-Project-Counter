@@ -1,3 +1,4 @@
+/* Common CSS settings */
 * {
   box-sizing: border-box;
 }
@@ -25,3 +26,6 @@ li {
   flex-direction: column;
   min-height: 100%;
 }
+
+/* Issue 2: Style the app (CSS)*/
+/*Person 2 (edit this line and write your name here)*/
