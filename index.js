@@ -1,13 +1,22 @@
 // Common settings for whole JavaScript
+const INCREMENT_BUTTON = document.querySelector("#increment");
+const DECREMENT_BUTTON = document.querySelector("#decrement");
 const counterDisplay = document.getElementById("counter_Value");
 let count = 0;
 
 // Issue 3: Implement "Increase" button logic.
-// Person 3 (edit this line and write your name here)
-
+// Ruslan Semenchik
+INCREMENT_BUTTON.addEventListener("click", ()=>{ 
+count++ ; 
+counterDisplay.textContent = count;
+});
 
 // Issue 4: Implement "Decrease" button logic.
-// Person 4 (edit this line and write your name here)
+// Ruslan Semenchik
+DECREMENT_BUTTON.addEventListener("click", ()=>{ 
+count--;    
+counterDisplay.textContent = count;
+});
 
 
 // Issue 5: Implement "Reset" button logic.
