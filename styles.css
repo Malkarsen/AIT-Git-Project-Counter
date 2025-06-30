@@ -25,7 +25,80 @@ li {
   display: flex;
   flex-direction: column;
   min-height: 100%;
-}
+
 
 /* Issue 2: Style the app (CSS)*/
 /*Person 2 (edit this line and write your name here)*/
+  background-color: rgb(245, 247, 250);
+}
+
+.app_header {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid black;
+  background-color: rgb(44, 62, 80);
+  height: 70px;
+  padding: 40px;
+  color: rgb(245, 247, 250);
+}
+
+.counter {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.value {
+  display: flex;
+  width: 400px;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  font-size: 48px;
+  font-weight: bold;
+  color: rgb(44, 62, 80);
+  border: 2px solid rgb(223, 230, 233);
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.button {
+  display: flex;
+  width: 100%;
+  max-width: 600px;
+  justify-content: center;
+  gap: 20px;
+}
+
+.button button {
+  flex: 1;
+  padding: 12px 0;
+  font-size: 24px;
+  background-color: rgb(52, 152, 219);
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
+
+h1 {
+  color: rgb(44, 62, 80);
+  font-size: 35px;
+}
+
+#increment,
+#decrement {
+  font-size: 36px;
+}
+
+#reset {
+  color: rgb(164, 42, 42);
+}
