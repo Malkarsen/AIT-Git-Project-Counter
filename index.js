@@ -27,5 +27,10 @@ document.getElementById("reset").addEventListener("click", () => {
 });
 
 // Issue 6: Validating the counter value
-// Person 6 (edit this line and write your name here)
-
+// Anton Cheban
+DECREMENT_BUTTON.addEventListener("click", () => {
+  if (count < 0) { // защита от отрицательных чисел
+    count = 0;
+  }
+  counterDisplay.textContent = count;
+});
